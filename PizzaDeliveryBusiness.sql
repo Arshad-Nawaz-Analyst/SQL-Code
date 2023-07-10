@@ -43,7 +43,7 @@ group by o.item_id,i.sku,i.item_name
 /*
 breaking down into pizzas by ingredients by using the recipe table*/
 
-ELECT
+SELECT
 o.item_id,
 i.sku,
 i.item_name,
